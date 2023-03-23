@@ -57,3 +57,8 @@ elif(funcEscolha == '9'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido =terabyteParaPetabyte(entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
+
+    elif(funcEscolha == '12'):
+    entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+    ValorConvertido =petabyteParaTerabyte (entradaDoTecladoValorASerConvertido)
+    print(ValorConvertido)
