@@ -18,27 +18,32 @@ elif(funcEscolha == '3'):
     ValorConvertido = byteParakilobyte(entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
 
-    elif(funcEscolha == '4'):
+elif(funcEscolha == '4'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = kilobyteParaByte(entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
 
-    elif(funcEscolha == '5'):
+elif(funcEscolha == '5'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = kilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
 
-    elif(funcEscolha == '6'):
+elif(funcEscolha == '6'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = megabyteParaKilobyte (entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
 
-    elif(funcEscolha == '7'):
+elif(funcEscolha == '7'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = megabyteParaGigabyte (entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
 
-    elif(funcEscolha == '8'):
+elif(funcEscolha == '8'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = gigabyteParaMegabyte (entradaDoTecladoValorASerConvertido)
+    print(ValorConvertido)
+
+elif(funcEscolha == '9'):
+    entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+    ValorConvertido = gigabyteParaTerabyte (entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
