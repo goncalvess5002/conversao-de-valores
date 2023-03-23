@@ -37,3 +37,8 @@ elif(funcEscolha == '3'):
     entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
     ValorConvertido = megabyteParaGigabyte (entradaDoTecladoValorASerConvertido)
     print(ValorConvertido)
+
+    elif(funcEscolha == '8'):
+    entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+    ValorConvertido = gigabyteParaMegabyte (entradaDoTecladoValorASerConvertido)
+    print(ValorConvertido)
